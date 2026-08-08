@@ -2,8 +2,10 @@ Manager List Software
 
 Project Setup:
   Make sure Node.js and npm are installed before running the project.
+  
   Install the project dependencies:
     **npm install**
+    
   Start the development server:
     **npm run dev**
 
