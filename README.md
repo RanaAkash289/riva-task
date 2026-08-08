@@ -13,15 +13,20 @@ The terminal will display the local URL where the application can be opened in t
 
 Running Tests
   Unit tests are included for both a Vue component and the recipient search logic.
+  
   Run the tests using:
     **npm run test:unit**
+    
   The component test checks that recipient information is displayed correctly and that the expected event is emitted when the Edit button is clicked.
+  
   The business logic test checks the recipient search functionality, including searching by name, searching by email, and handling an empty search value.
 
 
 Production Build
+
   To create a production build, run:
     **npm run build**
+    
   The generated production files will be available in the dist folder.
 
 
