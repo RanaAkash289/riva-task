@@ -66,13 +66,15 @@ Assumptions
 - Search is performed using the recipient name or email.
 - Search is case-insensitive.
 - Select All applies to the recipients currently visible in the table.
-- No backend API or database is required for this assignment.
 
+Trade-offs:
 
-Trade-offs
 I kept the project focused on the required functionality and Vue fundamentals instead of adding additional libraries or unnecessary complexity.
+
 I used Pinia for recipient state management because it works well with Vue 3 and keeps the store actions easy to follow.
+
 The application currently uses in-memory state, so changes are not saved after a browser refresh. The assignment allows local state, localStorage, or static data, so I kept the implementation simple and used the provided sample data as the initial state.
+
 For delete confirmation, I used the browser confirmation dialog instead of creating a separate modal component. This keeps the implementation smaller while still preventing accidental deletion.
 
 
